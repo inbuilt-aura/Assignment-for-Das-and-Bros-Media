@@ -188,6 +188,6 @@ npm run lint         # Run ESLint
 
 ## 📄 Documentation
 
-For detailed technical documentation, see [SRS_Document.md](../SRS_Document.md)
+For detailed technical documentation, see [SRS_Document.md](./SRS_Document.md)
 
 *Built with ❤️ using modern web technologies*
