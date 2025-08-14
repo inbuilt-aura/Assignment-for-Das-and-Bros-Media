@@ -181,7 +181,7 @@ Coverage: Core components and functionality
 
 ### 6.3 Performance Results
 - **Lighthouse Scores (Production Build):**
-  - Performance: 85/100
+  - Performance: 85/100 ~~ 89/100
   - Accessibility: 100/100
   - Best Practices: 100/100
   - SEO: 100/100
@@ -217,7 +217,7 @@ npm run lint
 
 ### 7.2 Build Optimization
 - **Minification:** Terser for JavaScript compression
-- **CSS Purging:** Remove unused Tailwind classes
+- **CSS Purging:** Removed unused Tailwind classes
 - **Asset Optimization:** Automatic optimization of images and fonts
 - **Chunk Splitting:** Vendor, UI, and feature-based chunks
 
@@ -293,7 +293,7 @@ dasandbrosmedia-homepage/
 - **Progressive Web App:** Offline functionality and app-like experience
 
 ### 9.2 Maintenance Recommendations
-- **Regular Updates:** Keep dependencies updated for security and performance
+- **Regular Updates:** Keeping dependencies updated for security and performance
 - **Performance Monitoring:** Continuous Lighthouse audits and Core Web Vitals tracking
 - **Content Updates:** Regular blog posts and portfolio additions
 - **SEO Optimization:** Ongoing keyword research and content optimization
