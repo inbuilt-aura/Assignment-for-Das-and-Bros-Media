@@ -29,7 +29,7 @@ const Hero = () => {
   }
 
   return (
-    <section id="hero" className="relative min-h-screen flex items-center justify-center overflow-hidden">
+  <section id="hero" className="relative min-h-screen flex items-center justify-center overflow-hidden sm:pt-20 pt-12">
       {/* Background with parallax effect */}
       <motion.div
         className="absolute inset-0 bg-gradient-to-br from-primary-50 via-background to-primary-100"
@@ -143,7 +143,7 @@ const Hero = () => {
           {/* Stats or highlights */}
           <motion.div
             ref={statsRef}
-            className="grid grid-cols-1 sm:grid-cols-3 gap-8 max-w-2xl mx-auto"
+            className="grid grid-cols-1 sm:grid-cols-3 gap-8 max-w-2xl mx-auto pb-16"
             initial="initial"
             animate="animate"
             variants={{
@@ -199,7 +199,7 @@ const Hero = () => {
               <div className="text-2xl lg:text-3xl font-heading font-bold text-brand-red mb-1">
                 {supportCount.count}/7
               </div>
-              <div className="text-sm text-muted-foreground font-medium mb-8">
+              <div className="text-sm text-muted-foreground font-medium">
                 Support Available
               </div>
             </motion.div>
@@ -209,7 +209,7 @@ const Hero = () => {
 
       {/* Scroll indicator */}
       <motion.div
-        className="absolute bottom-8 left-1/2 transform -translate-x-1/2"
+        className="absolute bottom-8 left-1/2 transform -translate-x-1/2 sn:mt-12 mt-22"
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, delay: 2 }}
