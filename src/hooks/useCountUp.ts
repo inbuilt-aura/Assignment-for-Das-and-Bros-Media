@@ -1,4 +1,5 @@
-import { useState, useCallback } from 'react'
+
+import { useState, useCallback, useRef } from 'react'
 
 interface UseCountUpProps {
   end: number
@@ -10,10 +11,11 @@ interface UseCountUpProps {
 export const useCountUp = ({ end, duration = 1500, start = 0, decimals = 0 }: UseCountUpProps) => {
   const [count, setCount] = useState(start)
   const [isAnimating, setIsAnimating] = useState(false)
+  const hasAnimated = useRef(false)
 
   const startAnimation = useCallback(() => {
-    if (isAnimating) return
-    
+    if (isAnimating || hasAnimated.current) return
+    hasAnimated.current = true;
     setIsAnimating(true)
     const startTime = performance.now()
     const startValue = start

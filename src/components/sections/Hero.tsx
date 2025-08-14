@@ -19,7 +19,7 @@ const Hero = () => {
       satisfactionCount.startAnimation()
       supportCount.startAnimation()
     }
-  }, [isInView])
+  }, [isInView, projectsCount, satisfactionCount, supportCount])
 
   const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId)
@@ -199,7 +199,7 @@ const Hero = () => {
               <div className="text-2xl lg:text-3xl font-heading font-bold text-brand-red mb-1">
                 {supportCount.count}/7
               </div>
-              <div className="text-sm text-muted-foreground font-medium">
+              <div className="text-sm text-muted-foreground font-medium mb-8">
                 Support Available
               </div>
             </motion.div>
