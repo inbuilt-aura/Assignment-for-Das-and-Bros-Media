@@ -61,8 +61,8 @@ const Footer = () => {
 
       <div className="relative">
         {/* Main Footer Content */}
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-16">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-10 sm:py-12">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 sm:gap-10">
             {/* Company Info */}
             <motion.div
               initial={{ opacity: 0, y: 20 }}
@@ -72,7 +72,7 @@ const Footer = () => {
               className="lg:col-span-1"
             >
               <div className="mb-4">
-                <Logo size="md" variant="light" />
+                <Logo size="sm" variant="light" className="sm:h-10 h-8" />
               </div>
               <p className="text-gray-300 mb-6 leading-relaxed">
                 Elevating businesses through innovative digital solutions. 
@@ -102,6 +102,7 @@ const Footer = () => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: 0.1 }}
+              className="text-left sm:text-left"
             >
               <h4 className="text-lg font-semibold mb-6">Quick Links</h4>
               <ul className="space-y-3">
@@ -135,6 +136,7 @@ const Footer = () => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: 0.2 }}
+              className="text-left sm:text-right"
             >
               <h4 className="text-lg font-semibold mb-6">Our Services</h4>
               <ul className="space-y-3">
@@ -202,8 +204,8 @@ const Footer = () => {
 
         {/* Bottom Bar */}
         <div className="border-t border-primary-800">
-          <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-6">
-            <div className="flex flex-col md:flex-row justify-between items-center">
+          <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-4 sm:py-6">
+            <div className="flex flex-col md:flex-row justify-between items-center gap-4 md:gap-0 text-center md:text-left">
               <motion.div
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}

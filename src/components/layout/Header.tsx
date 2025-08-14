@@ -153,8 +153,8 @@ const Header: React.FC<HeaderProps> = ({ activeNav }) => {
         {/* Mobile Navigation */}
         <motion.div
           className={cn(
-            'md:hidden overflow-hidden',
-            isMobileMenuOpen ? 'max-h-96' : 'max-h-0'
+            'md:hidden overflow-y-auto',
+            isMobileMenuOpen ? 'max-h-[80vh]' : 'max-h-0'
           )}
           initial={false}
           animate={{
