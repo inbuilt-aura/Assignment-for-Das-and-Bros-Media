@@ -3,11 +3,13 @@
 A modern, high-performance homepage redesign for Das and Bros Media Pvt Ltd, crafted with premium aesthetics inspired by McLaren, Ferrari, and Apple.
 
 ## 🚀 Live Demo
-Visit the live site: [localhost:4173](http://localhost:4173)
+Visit the live site: [assignment-for-das-and-bros-media.vercel.app](https://assignment-for-das-and-bros-media.vercel.app/)
+
+Or run locally: [localhost:4173](http://localhost:4173)
 
 ## 📊 Performance Results
 
-![Lighthouse Performance Results](./assets/Screenshot.png)
+![Lighthouse Performance Results](./src/assets/Screenshot.png)
 
 **Lighthouse Scores:**
 - 🟠 **Performance: 85/100** (Exceeds 80+ requirement)
