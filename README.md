@@ -5,7 +5,8 @@ A modern, high-performance homepage redesign for Das and Bros Media Pvt Ltd, cra
 ## 🚀 Live Demo
 Visit the live site: [assignment-for-das-and-bros-media.vercel.app](https://assignment-for-das-and-bros-media.vercel.app/)
 
-Or run locally: [localhost:4173](http://localhost:4173)
+Or run locally: [localhost:4173](http://localhost:5173)
+<img width="1855" height="931" alt="image" src="https://github.com/user-attachments/assets/6be488d5-d3f1-4e7b-a38e-ae22863974ef" />
 
 ## 📊 Performance Results
 
