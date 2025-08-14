@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/src/assets/logo.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Das and Bros Media - Premium digital solutions for growth marketing, cybersecurity, and digital transformation. Transform your business with cutting-edge design and performance."
+    />
+    <meta
+      name="keywords"
+      content="digital marketing, cybersecurity, web development, digital transformation, growth marketing, Das and Bros Media"
+    />
+    <meta name="author" content="Das and Bros Media Pvt Ltd" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://dasandbrosmedia.com/" />
+    <meta
+      property="og:title"
+      content="Das and Bros Media - Premium Digital Experiences"
+    />
+    <meta
+      property="og:description"
+      content="Transform your digital presence with cutting-edge design and flawless performance. Specializing in growth marketing, cybersecurity, and digital transformation."
+    />
+    <meta property="og:image" content="/src/assets/logo.svg" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://dasandbrosmedia.com/" />
+    <meta
+      property="twitter:title"
+      content="Das and Bros Media - Premium Digital Experiences"
+    />
+    <meta
+      property="twitter:description"
+      content="Transform your digital presence with cutting-edge design and flawless performance."
+    />
+    <meta property="twitter:image" content="/src/assets/logo.svg" />
+
+    <title>Das and Bros Media - Premium Digital Experiences</title>
+
+    <!-- Critical CSS for above-the-fold content -->
+    <style>
+      /* Critical styles for initial render */
+      body {
+        margin: 0;
+        font-family: Inter, system-ui, sans-serif;
+      }
+      .min-h-screen {
+        min-height: 100vh;
+      }
+      .bg-background {
+        background-color: hsl(0 0% 100%);
+      }
+      .container {
+        max-width: 80rem;
+        margin: 0 auto;
+        padding: 0 1rem;
+      }
+      .fixed {
+        position: fixed;
+      }
+      .top-0 {
+        top: 0;
+      }
+      .left-0 {
+        left: 0;
+      }
+      .right-0 {
+        right: 0;
+      }
+      .z-50 {
+        z-index: 50;
+      }
+      .flex {
+        display: flex;
+      }
+      .items-center {
+        align-items: center;
+      }
+      .justify-between {
+        justify-content: space-between;
+      }
+      .h-16 {
+        height: 4rem;
+      }
+      .text-xl {
+        font-size: 1.25rem;
+      }
+      .font-bold {
+        font-weight: 700;
+      }
+      .text-primary-900 {
+        color: #1a1a1a;
+      }
+    </style>
+
+    <!-- Preconnect to external domains -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://images.unsplash.com" />
+
+    <!-- Preload critical resources -->
+    <link
+      rel="preload"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Poppins:wght@600;700&display=swap"
+      as="style"
+      onload="this.onload=null;this.rel='stylesheet'"
+    />
+    <link
+      rel="preload"
+      href="/src/assets/logo.svg"
+      as="image"
+      type="image/svg+xml"
+    />
+
+    <!-- DNS prefetch for performance -->
+    <link rel="dns-prefetch" href="//fonts.googleapis.com" />
+    <link rel="dns-prefetch" href="//images.unsplash.com" />
+  </head>
+  <body>
+    <a
+      href="#main-content"
+      class="skip-nav bg-brand-red text-white px-4 py-2 absolute left-2 top-2 z-50 rounded focus:translate-y-0 -translate-y-20 focus:outline-none focus:ring-2 focus:ring-brand-red transition-transform duration-200"
+      >Skip to main content</a
+    >
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
